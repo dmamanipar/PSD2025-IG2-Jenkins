@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>ssh-slaves</artifactId>
-  <version>2.973.v0fa_8c0dea_f9f</version>
+  <version>3.1031.v72c6b_883b_869</version>
   <packaging>hpi</packaging>
   <name>SSH Build Agents plugin</name>
   <description>Allows to launch agents over SSH, using a Java implementation of the SSH protocol</description>
@@ -64,7 +64,7 @@
   <scm>
     <connection>scm:git:https://github.com/jenkinsci/ssh-agents-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/ssh-agents-plugin.git</developerConnection>
-    <tag>0fa8c0deaf9f775d1e54f28a0f6b42e654fd2342</tag>
+    <tag>72c6b883b8697f2682897250b3b652ffec50ae90</tag>
     <url>https://github.com/jenkinsci/ssh-agents-plugin</url>
   </scm>
   <distributionManagement>
@@ -87,13 +87,13 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>credentials</artifactId>
-      <version>1337.v60b_d7b_c7b_c9f</version>
+      <version>1405.vb_cda_74a_f8974</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>ssh-credentials</artifactId>
-      <version>337.v395d2403ccd4</version>
+      <version>349.vb_8b_6b_9709f5b_</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
@@ -102,7 +102,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.55</version>
+        <version>3.61</version>
         <extensions>true</extensions>
       </plugin>
     </plugins>

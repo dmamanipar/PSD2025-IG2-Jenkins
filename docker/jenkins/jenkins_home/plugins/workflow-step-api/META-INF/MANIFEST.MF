@@ -4,24 +4,23 @@ Build-Jdk-Spec: 17
 Specification-Title: Pipeline: Step API
 Specification-Version: 0.0
 Implementation-Title: Pipeline: Step API
-Implementation-Version: 678.v3ee58b_469476
+Implementation-Version: 700.v6e45cb_a_5a_a_21
 Group-Id: org.jenkins-ci.plugins.workflow
 Artifact-Id: workflow-step-api
 Short-Name: workflow-step-api
 Long-Name: Pipeline: Step API
 Url: https://github.com/jenkinsci/workflow-step-api-plugin
-Plugin-Version: 678.v3ee58b_469476
-Hudson-Version: 2.414.3
-Jenkins-Version: 2.414.3
-Plugin-Dependencies: structs:337.v1b_04ea_4df7c8
+Plugin-Version: 700.v6e45cb_a_5a_a_21
+Hudson-Version: 2.479.1
+Jenkins-Version: 2.479.1
+Plugin-Dependencies: structs:338.v848422169819
 Plugin-Developers: 
 Support-Dynamic-Loading: true
 Plugin-License-Name: MIT License
 Plugin-License-Url: https://opensource.org/licenses/MIT
 Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/workflow-step
  -api-plugin.git
-Plugin-ScmTag: 3ee58b469476390e55f4f6e42d60bbf6dc73e547
+Plugin-ScmTag: 6e45cba5aa21f0ea70a7b2d79e7cad886e4f940b
 Plugin-ScmUrl: https://github.com/jenkinsci/workflow-step-api-plugin
-Plugin-GitHash: 3ee58b469476390e55f4f6e42d60bbf6dc73e547
-Implementation-Build: 3ee58b469476390e55f4f6e42d60bbf6dc73e547
+Implementation-Build: 6e45cba5aa21f0ea70a7b2d79e7cad886e4f940b
 

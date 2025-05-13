@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>credentials-binding</artifactId>
-  <version>681.vf91669a_32e45</version>
+  <version>687.v619cb_15e923f</version>
   <packaging>hpi</packaging>
   <name>Credentials Binding Plugin</name>
   <description>The Jenkins Plugins Parent POM Project</description>
@@ -19,7 +19,7 @@
   <scm child.scm.connection.inherit.append.path="false" child.scm.developerConnection.inherit.append.path="false" child.scm.url.inherit.append.path="false">
     <connection>scm:git:https://github.com/jenkinsci/credentials-binding-plugin</connection>
     <developerConnection>scm:git:https://github.com/jenkinsci/credentials-binding-plugin</developerConnection>
-    <tag>f91669a32e4597fd4872f34993be809a26cf4137</tag>
+    <tag>619cb15e923f30fce17888f0533091ac9e30e922</tag>
     <url>https://github.com/jenkinsci/credentials-binding-plugin</url>
   </scm>
   <distributionManagement>
@@ -36,31 +36,31 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>credentials</artifactId>
-      <version>1319.v7eb_51b_3a_c97b_</version>
+      <version>1381.v2c3a_12074da_b_</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>plain-credentials</artifactId>
-      <version>179.vc5cb_98f6db_38</version>
+      <version>183.va_de8f1dd5a_2b_</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-step-api</artifactId>
-      <version>657.v03b_e8115821b_</version>
+      <version>678.v3ee58b_469476</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>structs</artifactId>
-      <version>337.v1b_04ea_4df7c8</version>
+      <version>338.v848422169819</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>ssh-credentials</artifactId>
-      <version>337.v395d2403ccd4</version>
+      <version>343.v884f71d78167</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
@@ -69,7 +69,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.53</version>
+        <version>3.58</version>
         <extensions>true</extensions>
       </plugin>
     </plugins>

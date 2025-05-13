@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>matrix-auth</artifactId>
-  <version>3.2.3</version>
+  <version>3.2.5</version>
   <packaging>hpi</packaging>
   <name>Matrix Authorization Strategy Plugin</name>
   <description>The Jenkins Plugins Parent POM Project</description>
@@ -19,7 +19,7 @@
   <scm>
     <connection>scm:git:https://github.com/jenkinsci/matrix-auth-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/matrix-auth-plugin.git</developerConnection>
-    <tag>matrix-auth-3.2.3</tag>
+    <tag>matrix-auth-3.2.5</tag>
     <url>https://github.com/jenkinsci/matrix-auth-plugin</url>
   </scm>
   <distributionManagement>
@@ -36,7 +36,7 @@
     <dependency>
       <groupId>io.jenkins</groupId>
       <artifactId>configuration-as-code</artifactId>
-      <version>1836.vccda_4a_122a_a_e</version>
+      <version>1915.vcdd0a_d0d2625</version>
       <scope>compile</scope>
       <optional>true</optional>
     </dependency>
@@ -49,7 +49,7 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>cloudbees-folder</artifactId>
-      <version>6.858.v898218f3609d</version>
+      <version>6.976.v4dc79fb_c458d</version>
       <scope>compile</scope>
       <optional>true</optional>
     </dependency>
@@ -59,7 +59,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.57</version>
+        <version>3.60</version>
         <extensions>true</extensions>
       </plugin>
     </plugins>

@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>ant</artifactId>
-  <version>511.v0a_a_1a_334f41b_</version>
+  <version>513.vde9e7b_a_0da_0f</version>
   <packaging>hpi</packaging>
   <name>Ant Plugin</name>
   <description>The Jenkins Plugins Parent POM Project</description>
@@ -20,7 +20,7 @@
   <scm>
     <connection>scm:git:https://github.com/jenkinsci/ant-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/ant-plugin.git</developerConnection>
-    <tag>0aa1a334f41bdb1fd985b51f12af24baf2a0d7a3</tag>
+    <tag>de9e7ba0da0fd46b6166240cc2a125c3d0b5744e</tag>
     <url>https://github.com/jenkinsci/ant-plugin</url>
   </scm>
   <distributionManagement>
@@ -46,7 +46,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.56</version>
+        <version>3.61</version>
         <extensions>true</extensions>
       </plugin>
     </plugins>

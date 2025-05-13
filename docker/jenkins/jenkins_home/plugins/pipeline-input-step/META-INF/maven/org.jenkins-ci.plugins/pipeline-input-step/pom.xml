@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>pipeline-input-step</artifactId>
-  <version>508.v584c0e9a_2177</version>
+  <version>517.vf8e782ee645c</version>
   <packaging>hpi</packaging>
   <name>Pipeline: Input Step</name>
   <description>The Jenkins Plugins Parent POM Project</description>
@@ -19,7 +19,7 @@
   <scm>
     <connection>scm:git:https://github.com/jenkinsci/pipeline-input-step-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/pipeline-input-step-plugin.git</developerConnection>
-    <tag>584c0e9a21773a8731ae846f2cc019737311b9b2</tag>
+    <tag>f8e782ee645cd6d9a6c3fad92d4545b9cc2e28a7</tag>
     <url>https://github.com/jenkinsci/pipeline-input-step-plugin</url>
   </scm>
   <distributionManagement>
@@ -36,31 +36,31 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>structs</artifactId>
-      <version>337.v1b_04ea_4df7c8</version>
+      <version>338.v848422169819</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-step-api</artifactId>
-      <version>657.v03b_e8115821b_</version>
+      <version>678.v3ee58b_469476</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-api</artifactId>
-      <version>1311.v4250456a_e552</version>
+      <version>1336.vee415d95c521</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-support</artifactId>
-      <version>907.v6713a_ed8a_573</version>
+      <version>936.v9fa_77211ca_e1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>credentials</artifactId>
-      <version>1337.v60b_d7b_c7b_c9f</version>
+      <version>1405.vb_cda_74a_f8974</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
@@ -69,7 +69,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.56</version>
+        <version>3.61</version>
         <extensions>true</extensions>
       </plugin>
     </plugins>

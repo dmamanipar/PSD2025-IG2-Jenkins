@@ -3,7 +3,7 @@ admin
 Da123456*sonar
 
 Token:
-squ_3fed7ca6756e8c1b3c96ff0500b53a02a4426bf5
+squ_e44f29d35f413069a041609d1a0c54fc7207d726
 
 
 mvn sonar:sonar: -Dsonar.token=squ_3fed7ca6756e8c1b3c96ff0500b53a02a4426bf5

@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>token-macro</artifactId>
-  <version>400.v35420b_922dcb_</version>
+  <version>444.v52de7e9c573d</version>
   <packaging>hpi</packaging>
   <name>Token Macro Plugin</name>
   <description>This plugin adds reusable macro expansion capability for other plugins to use.</description>
@@ -32,7 +32,7 @@
   <scm>
     <connection>scm:git:https://github.com/jenkinsci/token-macro-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/token-macro-plugin.git</developerConnection>
-    <tag>35420b922dcb2f42fb5a04e8785c2acd8da92be2</tag>
+    <tag>52de7e9c573dcfe6050ba043516c216f3099ca82</tag>
     <url>https://github.com/jenkinsci/token-macro-plugin</url>
   </scm>
   <distributionManagement>
@@ -49,33 +49,33 @@
     <dependency>
       <groupId>io.jenkins.plugins</groupId>
       <artifactId>json-path-api</artifactId>
-      <version>2.8.0-5.v07cb_a_1ca_738c</version>
+      <version>2.9.0-138.vc943da_d833b_6</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>structs</artifactId>
-      <version>325.vcb_307d2a_2782</version>
+      <version>338.v848422169819</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
-      <artifactId>workflow-job</artifactId>
-      <version>1326.ve643e00e9220</version>
+      <artifactId>workflow-api</artifactId>
+      <version>1363.v03f731255494</version>
       <scope>compile</scope>
       <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
-      <artifactId>workflow-api</artifactId>
-      <version>1283.v99c10937efcb_</version>
+      <artifactId>workflow-job</artifactId>
+      <version>1498.v33a_0c6f3a_4b_4</version>
       <scope>compile</scope>
       <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-step-api</artifactId>
-      <version>639.v6eca_cd8c04a_a_</version>
+      <version>686.v603d058a_e148</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
@@ -84,7 +84,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.50</version>
+        <version>3.60</version>
         <extensions>true</extensions>
       </plugin>
     </plugins>

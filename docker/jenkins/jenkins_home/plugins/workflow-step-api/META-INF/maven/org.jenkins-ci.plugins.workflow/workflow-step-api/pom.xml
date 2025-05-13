@@ -27,7 +27,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins.workflow</groupId>
   <artifactId>workflow-step-api</artifactId>
-  <version>678.v3ee58b_469476</version>
+  <version>700.v6e45cb_a_5a_a_21</version>
   <packaging>hpi</packaging>
   <name>Pipeline: Step API</name>
   <description>The Jenkins Plugins Parent POM Project</description>
@@ -42,7 +42,7 @@
   <scm>
     <connection>scm:git:https://github.com/jenkinsci/workflow-step-api-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/workflow-step-api-plugin.git</developerConnection>
-    <tag>3ee58b469476390e55f4f6e42d60bbf6dc73e547</tag>
+    <tag>6e45cba5aa21f0ea70a7b2d79e7cad886e4f940b</tag>
     <url>https://github.com/jenkinsci/workflow-step-api-plugin</url>
   </scm>
   <distributionManagement>
@@ -59,7 +59,7 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>structs</artifactId>
-      <version>337.v1b_04ea_4df7c8</version>
+      <version>338.v848422169819</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
@@ -68,7 +68,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.55</version>
+        <version>3.60</version>
         <extensions>true</extensions>
       </plugin>
     </plugins>

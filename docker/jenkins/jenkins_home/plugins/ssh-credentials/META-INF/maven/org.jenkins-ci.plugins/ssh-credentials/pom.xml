@@ -27,7 +27,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>ssh-credentials</artifactId>
-  <version>349.vb_8b_6b_9709f5b_</version>
+  <version>355.v9b_e5b_cde5003</version>
   <packaging>hpi</packaging>
   <name>SSH Credentials Plugin</name>
   <description>Allows storage of SSH credentials in Jenkins</description>
@@ -56,7 +56,7 @@
   <scm>
     <connection>scm:git:https://github.com/jenkinsci/ssh-credentials-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/ssh-credentials-plugin.git</developerConnection>
-    <tag>b8b6b9709f5bd4a65d1f7c128df2c4b3347d56aa</tag>
+    <tag>9be5bcde5003615494894ce1bdf33e3d644e2d78</tag>
     <url>https://github.com/jenkinsci/ssh-credentials-plugin</url>
   </scm>
   <distributionManagement>
@@ -86,13 +86,13 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>credentials</artifactId>
-      <version>1371.vfee6b_095f0a_3</version>
+      <version>1405.vb_cda_74a_f8974</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>bouncycastle-api</artifactId>
-      <version>2.30.1.78.1-248.ve27176eb_46cb_</version>
+      <version>2.30.1.79-254.vfdb_814e7791e</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
@@ -101,7 +101,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.57</version>
+        <version>3.61</version>
         <extensions>true</extensions>
       </plugin>
     </plugins>

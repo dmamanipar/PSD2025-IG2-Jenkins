@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>script-security</artifactId>
-  <version>1369.v9b_98a_4e95b_2d</version>
+  <version>1373.vb_b_4a_a_c26fa_00</version>
   <packaging>hpi</packaging>
   <name>Script Security Plugin</name>
   <description>The Jenkins Plugins Parent POM Project</description>
@@ -19,7 +19,7 @@
   <scm>
     <connection>scm:git:https://github.com/jenkinsci/script-security-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/script-security-plugin.git</developerConnection>
-    <tag>9b98a4e95b2d6c67c7a84078af855602fea0b4e4</tag>
+    <tag>bb4aac26fa0089fde2afade68fc18c5f01a31ef5</tag>
     <url>https://github.com/jenkinsci/script-security-plugin</url>
   </scm>
   <distributionManagement>
@@ -57,7 +57,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>3.57</version>
+        <version>3.61</version>
         <extensions>true</extensions>
       </plugin>
     </plugins>
